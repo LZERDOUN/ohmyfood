@@ -1,0 +1,230 @@
+.sectionLocalisation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: #d2cfcf95;
+    box-shadow: inset 0px 9px 15px -11px gray;
+}
+
+.fa-location-dot {
+    padding-right: 5px;
+    color: rgb(52, 51, 51);
+}
+
+.input {
+    border: none;
+    color: rgb(52, 51, 51);
+    font-weight: bolder;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sectionExplorer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding:7% 7% 10% 7%;
+    background-color: rgba(185, 183, 183, 0.259);
+    @include tabletteDesktop {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+.slogan {
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+
+.sectionFonctionnement {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    @include tabletteDesktop {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+.sectionFonctionnementEtape {
+    display: flex;
+    flex-direction: column;
+    @include desktop {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.fonctionnementEtape {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    @include desktop {
+        flex-grow : 1;
+        margin-right: 10px;
+    }
+}
+
+.fonctionnementNumero {
+    background-color: $colour-primary;
+    border-radius: 20px;
+    width: 33px;
+    height: 26px;
+    color: white;
+    text-align: center;
+    padding-top: 4px;
+    z-index: 1;
+}
+
+.fonctionnementDetail {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 8px #f2f2f2;
+    width: 100%;
+    height: 65px;
+    margin-left: -15px;
+    padding-left: 10%;
+    font-size: 15px;
+    background-color: rgba(185, 183, 183, 0.259);
+}
+
+.fonctionnementDetail3 {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 8px #f2f2f2;
+    width: 100%;
+    height: 65px;
+    margin-left: -15px;
+    padding-left: 10%;
+    font-size: 15px;
+    background-color: #9256dc2a;
+}
+
+.fa-mobile-screen-button, .fa-list-ul {
+    color: gray;
+    font-size: x-large;
+}
+
+.fa-store {
+    color: $colour-primary;
+    font-size: x-large;
+}
+
+.fonctionnementTexte {
+    padding-left: 8%;
+    font-weight: bold;
+}
+
+.sectionRestaurants {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    background-color: rgba(185, 183, 183, 0.259);
+    @include tabletteDesktop {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+.sectionRestaurantsCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+    @include tabletteDesktop{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(400px, 1fr));
+    }
+}
+
+.cardRestaurant {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 205px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 20px #999;
+    a {
+        text-decoration: none;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.cardImage {
+    height: 65%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.cardBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cardInfo {
+    display: flex;
+    flex-direction: column; 
+    width: 80%;
+    color: black;
+    padding : 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cardImageMenu {
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+}
+
+.menu {
+    padding: 24px 20px 40px 20px;
+    margin-top: -51px;
+    border-radius: 37px 32px 0 0;
+    BACKGROUND-COLOR: rgb(248, 247, 247);
+    position: relative;
+}
+
+.menuHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuComposition {
+    display: flex;
+    flex-direction: column;
+}
+
+.plat {
+    display: flex;
+    height: 40px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 20px #999;
+    margin-bottom: 10px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.platDetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
