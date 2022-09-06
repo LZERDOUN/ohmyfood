@@ -90,6 +90,16 @@ hr {
   padding-right: 20px;
 }
 
+.buttonCommander {
+  background: linear-gradient(#FF79DA, #9356DC);
+  color: white;
+  font-weight: bold;
+  border: 0px;
+  border-radius: 30px;
+  width: 200px;
+  height: 50px;
+}
+
 .logoBoxHeader {
   display: flex;
   height: 70px;
@@ -324,7 +334,7 @@ a {
 }
 
 .menu {
-  padding: 24px 20px 40px 20px;
+  padding: 24px 20px 50px 20px;
   margin-top: -51px;
   border-radius: 37px 32px 0 0;
   BACKGROUND-COLOR: rgb(248, 247, 247);
@@ -339,6 +349,7 @@ a {
 .menuComposition {
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .plat {
@@ -356,6 +367,19 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.prix {
+  margin: 0;
+  align-self: flex-end;
+  font-weight: bold;
+  padding-right: 15px;
+}
+
+.menuButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
 }
 
 footer {

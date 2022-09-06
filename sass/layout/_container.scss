@@ -193,7 +193,7 @@ a {
 }
 
 .menu {
-    padding: 24px 20px 40px 20px;
+    padding: 24px 20px 50px 20px;
     margin-top: -51px;
     border-radius: 37px 32px 0 0;
     BACKGROUND-COLOR: rgb(248, 247, 247);
@@ -208,6 +208,7 @@ a {
 .menuComposition {
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .plat {
@@ -227,4 +228,15 @@ a {
     justify-content: space-between;
 }
 
+.prix {
+    margin: 0;
+    align-self: flex-end;
+    font-weight: bold;
+    padding-right: 15px;
+}
 
+.menuButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
