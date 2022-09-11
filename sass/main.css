@@ -81,13 +81,31 @@ hr {
   border-radius: 30px;
   width: 200px;
   height: 50px;
+  box-shadow: #d9d9d9 0px 7px 10px;
+}
+.buttonExplorer:hover {
+  cursor: pointer;
+  opacity: 0.85;
+  box-shadow: #99E2D0 0px 3px 7px;
 }
 
 .fa-heart {
   align-self: center;
   font-size: 22px;
+  padding: 0 20px 20px 20px;
   padding-bottom: 20px;
   padding-right: 20px;
+  color: white;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
+}
+.fa-heart:hover {
+  color: transparent;
+  transition: all 1500ms ease;
+  -webkit-background-clip: text;
+          background-clip: text;
+  background-image: linear-gradient(to bottom, #9356DC, #FF79DA);
+  -webkit-text-stroke-color: transparent;
 }
 
 .buttonCommander {
@@ -98,6 +116,12 @@ hr {
   border-radius: 30px;
   width: 200px;
   height: 50px;
+  box-shadow: #d9d9d9 0px 7px 10px;
+}
+.buttonCommander:hover {
+  cursor: pointer;
+  opacity: 0.85;
+  box-shadow: #99E2D0 0px 3px 7px;
 }
 
 .logoBoxHeader {

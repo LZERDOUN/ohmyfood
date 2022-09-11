@@ -1,26 +1,49 @@
 .buttonExplorer {
-    background: linear-gradient(#FF79DA, #9356DC);
+    background: linear-gradient($colour-secondary, $colour-primary);
     color: white;
     font-weight: bold;
     border: 0px;
     border-radius: 30px;
     width: 200px;
     height: 50px;
+    @include shadow(); 
+    &:hover {
+        cursor: pointer;
+        opacity: 0.85;
+        box-shadow: $colour-tertiaire 0px 3px 7px;
+    }
 }
 
 .fa-heart {
     align-self: center;
     font-size: 22px;
+    padding: 0 20px 20px 20px;
     padding-bottom: 20px;
     padding-right: 20px;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    &:hover {
+        color: transparent;
+        transition: all 1500ms ease;
+        background-clip: text;
+        background-image: linear-gradient(to bottom, $colour-primary, $colour-secondary);
+        -webkit-text-stroke-color: transparent;
+    }
 }
 
 .buttonCommander {
-    background: linear-gradient(#FF79DA, #9356DC);
+    background: linear-gradient($colour-secondary, $colour-primary);
     color: white;
     font-weight: bold;
     border: 0px;
     border-radius: 30px;
     width: 200px;
     height: 50px;
+    @include shadow(); 
+    &:hover {
+        cursor: pointer;
+        opacity: 0.85;
+        box-shadow: $colour-tertiaire 0px 3px 7px;
+    }
 }
