@@ -146,6 +146,7 @@
 
 .cardRestaurant {
     display: flex;
+    position: relative;
     flex-direction: column;
     flex-grow: 1;
     height: 205px;
@@ -186,45 +187,14 @@ a {
     text-decoration: none;
 }
 
-.cardImageMenu {
-    width: 100%;
-    object-fit: cover;
-    height: 250px;
+.nouveau {
+    position: absolute;
+    top: -2px;
+    right: 18px;
+    padding: 6px 13px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 2px;
+    color: #278870;
+    background: $colour-tertiaire;
 }
-
-.menu {
-    padding: 24px 20px 40px 20px;
-    margin-top: -51px;
-    border-radius: 37px 32px 0 0;
-    BACKGROUND-COLOR: rgb(248, 247, 247);
-    position: relative;
-}
-
-.menuHeader {
-    display: flex;
-    justify-content: space-between;
-}
-
-.menuComposition {
-    display: flex;
-    flex-direction: column;
-}
-
-.plat {
-    display: flex;
-    height: 40px;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 0px 5px 20px #999;
-    margin-bottom: 10px;
-    padding: 10px;
-    justify-content: space-between;
-}
-
-.platDetail {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-

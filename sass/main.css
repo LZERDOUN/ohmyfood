@@ -90,6 +90,16 @@ hr {
   padding-right: 20px;
 }
 
+.buttonCommander {
+  background: linear-gradient(#FF79DA, #9356DC);
+  color: white;
+  font-weight: bold;
+  border: 0px;
+  border-radius: 30px;
+  width: 200px;
+  height: 50px;
+}
+
 .logoBoxHeader {
   display: flex;
   height: 70px;
@@ -113,6 +123,11 @@ hr {
   left: 23px;
   font-size: 18px;
   color: black;
+}
+
+.menuHeader {
+  display: flex;
+  justify-content: space-between;
 }
 
 .sectionLocalisation {
@@ -275,6 +290,7 @@ hr {
 
 .cardRestaurant {
   display: flex;
+  position: relative;
   flex-direction: column;
   flex-grow: 1;
   height: 205px;
@@ -316,46 +332,16 @@ a {
   text-decoration: none;
 }
 
-.cardImageMenu {
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 250px;
-}
-
-.menu {
-  padding: 24px 20px 40px 20px;
-  margin-top: -51px;
-  border-radius: 37px 32px 0 0;
-  BACKGROUND-COLOR: rgb(248, 247, 247);
-  position: relative;
-}
-
-.menuHeader {
-  display: flex;
-  justify-content: space-between;
-}
-
-.menuComposition {
-  display: flex;
-  flex-direction: column;
-}
-
-.plat {
-  display: flex;
-  height: 40px;
-  background-color: white;
-  border-radius: 15px;
-  box-shadow: 0px 5px 20px #999;
-  margin-bottom: 10px;
-  padding: 10px;
-  justify-content: space-between;
-}
-
-.platDetail {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.nouveau {
+  position: absolute;
+  top: -2px;
+  right: 18px;
+  padding: 6px 13px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 2px;
+  color: #278870;
+  background: #99E2D0;
 }
 
 footer {
@@ -401,4 +387,55 @@ footer ul li a {
   font-size: 20px;
   color: white;
   font-family: "Shrikhand", sans-serif;
+}
+
+.cardImageMenu {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 250px;
+}
+
+.menu {
+  padding: 24px 20px 50px 20px;
+  margin-top: -51px;
+  border-radius: 37px 32px 0 0;
+  BACKGROUND-COLOR: rgb(248, 247, 247);
+  position: relative;
+}
+
+.menuComposition {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.plat {
+  display: flex;
+  height: 40px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 5px 20px #999;
+  margin-bottom: 10px;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.platDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.prix {
+  margin: 0;
+  align-self: flex-end;
+  font-weight: bold;
+  padding-right: 15px;
+}
+
+.menuButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
 }/*# sourceMappingURL=main.css.map */
