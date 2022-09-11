@@ -146,6 +146,7 @@
 
 .cardRestaurant {
     display: flex;
+    position: relative;
     flex-direction: column;
     flex-grow: 1;
     height: 205px;
@@ -184,4 +185,16 @@
 
 a {
     text-decoration: none;
+}
+
+.nouveau {
+    position: absolute;
+    top: -2px;
+    right: 18px;
+    padding: 6px 13px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 2px;
+    color: #278870;
+    background: $colour-tertiaire;
 }
