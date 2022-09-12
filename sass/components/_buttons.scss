@@ -26,6 +26,7 @@
     &:hover {
         color: transparent;
         transition: all 1500ms ease;
+        cursor: pointer;
         background-clip: text;
         background-image: linear-gradient(to bottom, $colour-primary, $colour-secondary);
         -webkit-text-stroke-color: transparent;

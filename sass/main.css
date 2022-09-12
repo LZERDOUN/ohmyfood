@@ -102,6 +102,7 @@ hr {
 .fa-heart:hover {
   color: transparent;
   transition: all 1500ms ease;
+  cursor: pointer;
   -webkit-background-clip: text;
           background-clip: text;
   background-image: linear-gradient(to bottom, #9356DC, #FF79DA);
