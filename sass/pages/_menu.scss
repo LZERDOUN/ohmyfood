@@ -18,7 +18,7 @@
     margin-bottom: 20px;
 }
 
-.plat {
+.plat, .plat1, .plat2, .plat3 {
     display: flex;
     height: 40px;
     background-color: white;
@@ -28,6 +28,22 @@
     padding: 10px;
     justify-content: space-between;
 }
+
+.plat1 {
+    animation-delay: 0s;
+    animation: slideDown 3s;
+}
+
+.plat2 {
+    animation-delay: 2s;
+    animation: slideDown 3s;
+}
+
+.plat3 {
+    animation-delay: 4s;
+    animation: slideDown 3s;
+}
+
 
 .platDetail {
     display: flex;

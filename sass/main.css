@@ -1,3 +1,23 @@
+@-webkit-keyframes slideDown {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slideDown {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 body {
   box-sizing: border-box;
   margin: 0;
@@ -435,7 +455,7 @@ footer ul li a {
   margin-bottom: 20px;
 }
 
-.plat {
+.plat, .plat1, .plat2, .plat3 {
   display: flex;
   height: 40px;
   background-color: white;
@@ -444,6 +464,27 @@ footer ul li a {
   margin-bottom: 10px;
   padding: 10px;
   justify-content: space-between;
+}
+
+.plat1 {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation: slideDown 3s;
+          animation: slideDown 3s;
+}
+
+.plat2 {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation: slideDown 3s;
+          animation: slideDown 3s;
+}
+
+.plat3 {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+  -webkit-animation: slideDown 3s;
+          animation: slideDown 3s;
 }
 
 .platDetail {
