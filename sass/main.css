@@ -522,8 +522,15 @@ footer ul li a {
   border-radius: 15px;
   box-shadow: 0px 5px 20px #999;
   margin-bottom: 10px;
-  padding: 10px;
-  justify-content: space-between;
+  padding-left: 10px;
+}
+.plat1:hover :nth-child(3), .plat2:hover :nth-child(3), .plat3:hover :nth-child(3) {
+  opacity: 1;
+  margin-right: 0px;
+}
+.plat1:hover .fa-circle-check, .plat2:hover .fa-circle-check, .plat3:hover .fa-circle-check {
+  opacity: 1;
+  transform: rotate(-360deg);
 }
 
 .plat1 {
@@ -550,6 +557,12 @@ footer ul li a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 95%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .prix {
@@ -557,10 +570,31 @@ footer ul li a {
   align-self: flex-end;
   font-weight: bold;
   padding-right: 15px;
+  padding-bottom: 10px;
 }
 
 .menuButton {
   display: flex;
   justify-content: center;
   margin-top: 30px;
+}
+
+.checkbox {
+  height: 50px;
+  width: 5%;
+  background-color: #99E2D0;
+  border-radius: 0 15px 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  opacity: 0;
+  margin-left: 25px;
+  margin-right: -70px;
+  transition: all 1s ease-in-out;
+}
+
+.fa-circle-check {
+  color: white;
+  transition: all 1s ease-in-out;
 }/*# sourceMappingURL=main.css.map */
