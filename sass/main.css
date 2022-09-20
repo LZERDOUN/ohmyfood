@@ -530,7 +530,7 @@ hr {
   margin-bottom: 10px;
   padding-left: 10px;
 }
-.plat1:hover :nth-child(3), .plat2:hover :nth-child(3), .plat3:hover :nth-child(3), .plat4:hover :nth-child(3) {
+.plat1:hover .checkbox, .plat2:hover .checkbox, .plat3:hover .checkbox, .plat4:hover .checkbox {
   opacity: 1;
   margin-right: 0px;
 }

@@ -11,8 +11,8 @@
 
 .chargement{
     border: 10px solid #F3F3F3;
-    border-top: 10px solid #9356DC;
-    border-bottom: 10px solid #FF79DA;
+    border-top: 10px solid $colour-primary;
+    border-bottom: 10px solid $colour-secondary;
     border-radius: 45%;
     width: 100px;
     height: 100px;
