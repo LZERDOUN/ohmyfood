@@ -535,7 +535,6 @@ hr {
   margin-right: 0px;
 }
 .plat1:hover .fa-circle-check, .plat2:hover .fa-circle-check, .plat3:hover .fa-circle-check, .plat4:hover .fa-circle-check {
-  opacity: 1;
   transform: rotate(-720deg);
 }
 
