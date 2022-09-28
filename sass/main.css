@@ -150,7 +150,7 @@ h4 {
   cursor: pointer;
   -webkit-background-clip: text;
           background-clip: text;
-  background-image: linear-gradient(to bottom, #9356DC, #FF79DA);
+  background-image: linear-gradient(to bottom, #9356DC, #FF79DA, white);
   -webkit-text-stroke-color: transparent;
 }
 
@@ -330,27 +330,15 @@ h4 {
   font-size: 15px;
   background-color: rgba(185, 183, 183, 0.259);
 }
-
-.fonctionnementDetail3 {
-  display: flex;
-  align-items: center;
-  border-radius: 20px;
-  box-shadow: 5px 5px 10px 8px #f2f2f2;
-  width: 100%;
-  height: 65px;
-  margin-left: -15px;
-  padding-left: 10%;
-  font-size: 15px;
+.fonctionnementDetail:hover {
   background-color: rgba(146, 86, 220, 0.1647058824);
 }
-
-.fa-mobile-screen-button, .fa-list-ul {
-  color: gray;
-  font-size: x-large;
+.fonctionnementDetail:hover .fa-mobile-screen-button, .fonctionnementDetail:hover .fa-list-ul, .fonctionnementDetail:hover .fa-store {
+  color: #9356DC;
 }
 
-.fa-store {
-  color: #9356DC;
+.fa-mobile-screen-button, .fa-list-ul, .fa-store {
+  color: gray;
   font-size: x-large;
 }
 
@@ -535,27 +523,27 @@ hr {
   margin-right: 0px;
 }
 .plat1:hover .fa-circle-check, .plat2:hover .fa-circle-check, .plat3:hover .fa-circle-check, .plat4:hover .fa-circle-check {
-  transform: rotate(-720deg);
+  transform: rotate(360deg);
 }
 
 .plat1 {
+  -webkit-animation: slideDown 0.5s ease-in-out;
+          animation: slideDown 0.5s ease-in-out;
+}
+
+.plat2 {
+  -webkit-animation: slideDown 0.75s ease-in-out;
+          animation: slideDown 0.75s ease-in-out;
+}
+
+.plat3 {
   -webkit-animation: slideDown 1s ease-in-out;
           animation: slideDown 1s ease-in-out;
 }
 
-.plat2 {
-  -webkit-animation: slideDown 1.5s ease-in-out;
-          animation: slideDown 1.5s ease-in-out;
-}
-
-.plat3 {
-  -webkit-animation: slideDown 2s ease-in-out;
-          animation: slideDown 2s ease-in-out;
-}
-
 .plat4 {
-  -webkit-animation: slideDown 2.5s ease-in-out;
-          animation: slideDown 2.5s ease-in-out;
+  -webkit-animation: slideDown 1.25s ease-in-out;
+          animation: slideDown 1.25s ease-in-out;
 }
 
 .platDetail {
@@ -596,10 +584,10 @@ hr {
   overflow: hidden;
   opacity: 0;
   margin-right: -70px;
-  transition: all 1s ease-in-out;
+  transition: all 0.75s ease-in-out;
 }
 
 .fa-circle-check {
   color: white;
-  transition: all 1s ease-in-out;
+  transition: all 0.75s ease-in-out;
 }/*# sourceMappingURL=main.css.map */

@@ -28,7 +28,7 @@
         transition: all 1500ms ease;
         cursor: pointer;
         background-clip: text;
-        background-image: linear-gradient(to bottom, $colour-primary, $colour-secondary);
+        background-image: linear-gradient(to bottom, #9356DC, #FF79DA, white);;
         -webkit-text-stroke-color: transparent;
     }
 }

@@ -40,24 +40,24 @@ hr {
         margin-right: 0px;
     }
     &:hover .fa-circle-check{
-        transform: rotate(-720deg);
+        transform: rotate(360deg);
     }
 }
 
 .plat1 {
-    animation: slideDown 1s ease-in-out;
+    animation: slideDown 0.5s ease-in-out;
 }
 
 .plat2 {
-    animation: slideDown 1.5s ease-in-out;
+    animation: slideDown 0.75s ease-in-out;
 }
 
 .plat3 {
-    animation: slideDown 2s ease-in-out;
+    animation: slideDown 1s ease-in-out;
 }
 
 .plat4 {
-    animation: slideDown 2.5s ease-in-out;
+    animation: slideDown 1.25s ease-in-out;
 }
 
 
@@ -99,10 +99,10 @@ hr {
     overflow: hidden;
     opacity: 0;
     margin-right: -70px;
-    transition: all 1s ease-in-out;
+    transition: all 0.75s ease-in-out;
 }
 
 .fa-circle-check {
   color : white;
-  transition: all 1s ease-in-out;
+  transition: all 0.75s ease-in-out;
 }
